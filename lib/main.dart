@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ui_kit/barbarshop/home_screen.dart';
 import 'clothesRentalApp/home_screen.dart';
 import 'package:flutter_ui_kit/niceSurprises/nice_surprises.dart';
+import 'package:flutter_ui_kit/devrant/screens/devrant_home_screen.dart';
 
 void main() {
   runApp(
@@ -33,6 +34,10 @@ class MyApp extends StatelessWidget {
           MenuButton(
             title: 'Nice Surprises',
             screen: NiceSurprises(),
+          ),
+          MenuButton(
+            title: 'dev rant app',
+            screen: DevrantApp(),
           ),
         ],
       ),
